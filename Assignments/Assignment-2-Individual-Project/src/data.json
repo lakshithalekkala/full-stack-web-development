@@ -1,1 +1,109 @@
-
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "College Office",
+      "prefix": "O"
+    },
+    {
+      "id": 2,
+      "name": "Library",
+      "prefix": "L"
+    },
+    {
+      "id": 3,
+      "name": "Canteen",
+      "prefix": "C"
+    },
+    {
+      "id": 4,
+      "name": "Computer Lab",
+      "prefix": "D"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "O-1-1792403849499",
+      "token": "O-001",
+      "serviceName": "College Office",
+      "number": 1,
+      "status": "Completed",
+      "createdAt": "2026-10-19T09:57:29.499Z",
+      "completedAt": "2026-10-19T10:09:34.324Z"
+    },
+    {
+      "id": "L-1-1792404333173",
+      "token": "L-001",
+      "serviceName": "Library",
+      "number": 1,
+      "status": "Waiting",
+      "createdAt": "2026-10-19T10:05:33.173Z"
+    },
+    {
+      "id": "C-1-1792404549089",
+      "token": "C-001",
+      "serviceName": "Canteen",
+      "number": 1,
+      "status": "Waiting",
+      "createdAt": "2026-10-19T10:09:09.089Z"
+    },
+    {
+      "id": "O-2-1792404563122",
+      "token": "O-002",
+      "serviceName": "College Office",
+      "number": 2,
+      "status": "Completed",
+      "createdAt": "2026-10-19T10:09:23.122Z",
+      "completedAt": "2026-10-19T10:09:40.797Z"
+    },
+    {
+      "id": "O-3-1792404586670",
+      "token": "O-003",
+      "serviceName": "College Office",
+      "number": 3,
+      "status": "Completed",
+      "createdAt": "2026-10-19T10:09:46.670Z",
+      "completedAt": "2026-10-19T10:10:11.056Z"
+    },
+    {
+      "id": "O-4-1792404618127",
+      "token": "O-004",
+      "serviceName": "College Office",
+      "number": 4,
+      "status": "Completed",
+      "createdAt": "2026-10-19T10:10:18.127Z",
+      "completedAt": "2026-10-19T10:10:27.576Z"
+    },
+    {
+      "id": "O-5-1792404620860",
+      "token": "O-005",
+      "serviceName": "College Office",
+      "number": 5,
+      "status": "Completed",
+      "createdAt": "2026-10-19T10:10:20.860Z",
+      "completedAt": "2026-10-19T10:12:57.415Z"
+    },
+    {
+      "id": "O-6-1792404766000",
+      "token": "O-006",
+      "serviceName": "College Office",
+      "number": 6,
+      "status": "Serving",
+      "createdAt": "2026-10-19T10:12:46.000Z"
+    },
+    {
+      "id": "O-7-1792404792855",
+      "token": "O-007",
+      "serviceName": "College Office",
+      "number": 7,
+      "status": "Waiting",
+      "createdAt": "2026-10-19T10:13:12.855Z"
+    }
+  ],
+  "nextNumbers": {
+    "O": 8,
+    "L": 2,
+    "C": 2,
+    "D": 1
+  }
+}
